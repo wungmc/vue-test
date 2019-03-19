@@ -16,17 +16,24 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
+
+    <div>
+      <firstcomponent></firstcomponent>
+    </div>
   </div>
 </template>
 
 <script>
+import firstcomponent from './component/firstcomponent.vue'
+
 export default {
   name: 'app',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
-  }
+  },
+  components: { firstcomponent }
 }
 </script>
 
