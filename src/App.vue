@@ -18,7 +18,18 @@
     </ul>
 
     <div>
-      <firstcomponent></firstcomponent>
+      <!-- <firstcomponent></firstcomponent> -->
+      <!-- <secondcomponent></secondcomponent> -->
+
+      <ul>
+        <li>
+          <router-link to='/first'>1 page</router-link>
+        </li>
+        <li>
+          <router-link to='/second'>2 page</router-link>
+        </li>
+      </ul>
+      <router-view class="view"></router-view>
     </div>
   </div>
 </template>
