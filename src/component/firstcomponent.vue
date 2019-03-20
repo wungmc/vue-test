@@ -6,12 +6,13 @@
 </template>
 
 <script>
-export default {
-    data () {
-        return {
-            author: 'wungmc',
-            date: '2019.3.19'
+    export default {
+        data() {
+            return {
+                author: 'wungmc',
+                date: '2019.3.19'
+            }
         }
     }
-}
+
 </script>
